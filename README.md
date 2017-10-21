@@ -2,7 +2,7 @@
 
 Source code and audio clip files for my evil corn Halloween costume.
 
-Parts List
+## Parts List
 
  * Raspberry Pi 1 Model A
     * I just happened to have this laying around.
@@ -16,3 +16,7 @@ Parts List
     * ASIN: B00LSF603M
  * CreepyParty Deluxe Novelty Halloween Costume Party Latex Vegetables Head Corn Mask
     * ASIN: B01LWOQJZJ
+
+## Required Software
+
+ * [Adafruit_Python_LED_Backpack](https://github.com/adafruit/Adafruit_Python_LED_Backpack)
