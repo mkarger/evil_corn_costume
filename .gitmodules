@@ -1,0 +1,3 @@
+[submodule "led_backpack"]
+	path = led_backpack
+	url = git@github.com:adafruit/Adafruit_Python_LED_Backpack.git
