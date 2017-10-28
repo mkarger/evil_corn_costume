@@ -1,8 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Plays a random audio file when a button is pushed.
 
 import os
 import random
 
-random.choice(os.listdir ("./audio"))
+def randomSound():
+    randomFile = random.choice(os.listdir ("./audio"))
+    os.system('mpg123 ' + randomFile)
+
+randomSound()
