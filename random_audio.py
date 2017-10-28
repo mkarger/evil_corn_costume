@@ -7,6 +7,6 @@ import random
 
 def randomSound():
     randomFile = random.choice(os.listdir ("./audio"))
-    os.system('mpg123 ./audio' + randomFile)
+    os.system('mpg123 ./audio/' + randomFile)
 
 randomSound()
